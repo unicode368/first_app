@@ -1,0 +1,23 @@
+<HTML>
+ <HEAD>
+ <meta charset="utf-8">
+ <TITLE>Переставляння зображень</TITLE>
+ <script>
+ function add(pic){
+ document.images[3].src = pic.src;
+ }
+ </script>
+ </HEAD>
+ <BODY>
+ <CENTER>
+ <p>Галерея малюнків</p>
+ <div><IMG src="p1.gif" width="500" name="pic1" alt="pic1" onClick="add(document.images[0])"></div>
+ <div><IMG src="p2.gif" width="500" name="pic2" alt="pic2" onClick="add(document.images[1])"></div>
+ <div><IMG src="p3.gif" width="500" name="pic3" alt="pic3" onClick="add(document.images[2])"></div>
+ <FORM name=form1>
+ <h1>Клацніть на зображення!</h1>
+ <div><IMG width="500" name="pic4" alt="pic4"></div>
+ </FORM>
+ </CENTER>
+ </BODY>
+ </HTML> 
