@@ -4,7 +4,7 @@
     "description": "nodejs lab1 I guess",
     "main": "index.js",
     "scripts": {
-        "test": "eslint.",
+        "test": "eslint .",
         "start": "node index.js",
         "prettier": "prettier --config .prettierrc.json --write **/*.json",
         "doc": "esdoc --out --readme ./README.md",
