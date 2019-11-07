@@ -10,7 +10,8 @@
         "doc": "esdoc --out --readme ./README.md",
         "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
         "precommit": "npm run prettier",
-        "prepush": "call npm run test"
+        "prepush": "call npm run test",
+        "lint": ""
     },
     "repository": {
         "type": "git",
