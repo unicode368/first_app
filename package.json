@@ -30,5 +30,11 @@
         "husky": "^3.0.9",
         "mocha": "^6.2.2",
         "prettier": "^1.18.2"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm test",
+            "pre-push": "npm test"
+        }
     }
 }
